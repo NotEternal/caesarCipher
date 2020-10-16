@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <textarea class="input-text" placeholder="Input text..."></textarea>
+
+      <div class="button-container">
+        <button class="btn btn-encrypt">Encrypt</button>
+        <button class="btn btn-decipher">Decipher</button>
+
+        <div class="container-values">
+          <span class="offset-title">Offset encrypt ></span><span class="offset-value"></span>
+          <input type="range" class="offset" min="1" max="27" />
+        </div>
+      </div>
+
+      <textarea class="output-text" placeholder="Output text..."></textarea>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
